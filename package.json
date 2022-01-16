@@ -1,8 +1,8 @@
 {
   "name": "my-first-nestjs",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "My first nestjs express framework server",
+  "author": "Tharuka Ruwan",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
