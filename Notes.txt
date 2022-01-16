@@ -1,5 +1,7 @@
 ** It is a backend Express type scrypt framework
 * It has lot of cool idease from Anguler which is js frontend framework
+* Nestjs provides build in wrapper arround appalo which is a propuler graphql server
+* Doc => "https://nestjs.com"
 
 ================NestJs getting started=================================
 01) Install NestJs globally in your computer if it isn't install yet (npm i -g @nestjs/cli)
@@ -7,4 +9,8 @@
 03) After that run project (in project root directory ===> npm run start)
 
 ===================NestJs concepts=====================================
-* main.ts => app.module.ts => app.controller.ts => app.service.ts
+* main.ts => app.module.ts => app.controller.ts => app.service.ts => app.controller.spec.ts(for unit testing)
+* Decarators start with "@" symbol
+* Nestjs is smart inough to set it's decarators automaticaly but we can override it
+* Setting manual headers => import { Header } from '@nestjs/common'; => at controller (@Header('Content-Type', 'application/json') etc..)
+* 
